@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : Borel
+- PRÉNOM : Yannis
+- URL du site : 
+- URL FIGMA : https://www.figma.com/file/T5rVtxexU0z0SdPazO3PlL/Maquette-Borel-Yannis?node-id=0%3A1&t=1MnguESwlqTuJY4K-1
 
 # Structure de départ pour le projet individuel.
 
