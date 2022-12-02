@@ -2,6 +2,7 @@
 - PRÉNOM : Yannis
 - URL du site : 
 - URL FIGMA : https://www.figma.com/file/T5rVtxexU0z0SdPazO3PlL/Maquette-Borel-Yannis?node-id=0%3A1&t=1MnguESwlqTuJY4K-1
+J'ai travaillé sur un ordinateur de prêt et sans faire attention j'ai travaillé sur le compte de Yanis Richard, ce qui explique tous les commits à son nom.
 
 # Structure de départ pour le projet individuel.
 
