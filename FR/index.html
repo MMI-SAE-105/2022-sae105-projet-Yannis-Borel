@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="../src/css/menu.css">
         <link rel="stylesheet" href="../src/css/Typographie.css">
         <link rel="stylesheet" href="../src/css/header.css">
+        <link rel="stylesheet" href="../src/css/footer.css">
+        <link rel="stylesheet" href="../src/css/Caroussel.css">
   </head>
   <body class="">
     <header class="header">
@@ -34,27 +36,55 @@
 
     </header>
     <img src="../public/img/image 1.webp" aly="Image accueil" class="img_accueil" />
-    <img src="../public/img/Component 11.webp" aly="Flèche accueil" />
+    <img src="../public/img/Component 11.webp" aly="Flèche accueil" class="boutton_accueil" />
+    <div class="carrousel" x-data="{}">
+      <div class="carrousel_parent-ecrans">
+          <div id="ecran-1" class="carrousel_ecran">
+              <figure>
+                  <img src="/public/img/image 14.webp" alt="image ecran 1q">
+                  <figcaption>American astronaut James Irvin standing next to the American flag on the Moon during the Apollo 15 mission, 11 August 1971</figcaption>
+              </figure>
+          </div>
+          <div id="ecran-2" class="carrousel_ecran">
+              <figure>
+                  <img src="/public/img/image 14.webp"alt="image ecran 2">
+                  <figcaption>International Space Station</figcaption>
+              </figure>
+          </div>
+          <div id="ecran-3" class="carrousel_ecran">
+              <figure>
+                  <img src="/public/img/espoir/espoir image 12.webp" alt="image ecran 3">
+                  <figcaption>Launch of a space shuttle</figcaption>
+              </figure>
+          </div>
+          <div id="ecran-4" class="carrousel_ecran">
+              <figure>
+                  <img src="/public/img/espoir/espoir image 13.webp" alt="image ecran 4">
+                  <figcaption>The dog Laika on board the Russian spacecraft Sputnik II</figcaption>
+              </figure>
+          </div>
+      </div>
+  </div>
     <footer>
       <h1>WIKIPIECE</h1>
-      <p>Formulaire de contact</p>
+      <p class="Avis_site">Donnez votre avis sur le site </p>
+      <p class="Formulaire_footer">Formulaire de contact</p>
       <p>Mentions légales</p>
       <p>
         Projet réalisé dans le cadre d'un exercice pédagogique au département
-        <br> <a href="http://mmimontbeliard.com/"> MMI de Montbéliard </a></p>
-      </p>
+         <a href="http://mmimontbeliard.com/"> MMI de Montbéliard </a></p>
       <p>Me contacter</p>
-      <p>Yannis Borel</p>
-      <p>Mail: yannis.borel84@gmail.com</p>
+      <p>Yannis Borel
+      yannis.borel84@gmail.com</p>
       <p>Réseaux sociaux</p>
       <a href="https://www.instagram.com/yannis.borel/?hl=fr"
-        ><img src="../public/img/instagram_svg.svg" alt="LOGO INSTAGRAM"
+        ><img src="../public/img/instagram_svg.svg" alt="LOGO INSTAGRAM" class="instagram"
       /></a>
       <a href="https://mobile.twitter.com/mirnis__"
-        ><img src="../public/img/twitter_svg.svg" alt="LOGO TWITTER"
+        ><img src="../public/img/twitter_svg.svg" alt="LOGO TWITTER" class="twitter"
       /></a>
       <a href="https://www.youtube.com/@mirnis4448"
-        ><img src="../public/img/youtube_svg.svg" alt="LOGO YOUTUBE"
+        ><img src="../public/img/youtube.webp" alt="LOGO YOUTUBE" class="youtube"
       /></a>
     </footer>
   </body>

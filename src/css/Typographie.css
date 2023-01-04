@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Mulish?vfonly=true');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 html {
@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times;
+    font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
     margin: 0 0px;
@@ -24,4 +24,8 @@ body {
 
 h1 {
    font-size: 2rem; 
+}
+
+.avis_site {
+    margin: 30px;
 }

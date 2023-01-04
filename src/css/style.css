@@ -18,6 +18,7 @@ button {
 
 .img_accueil { 
   width:105% ;
+  margin-top: 60px;
 }
 
 h1 {
@@ -27,4 +28,32 @@ h1 {
 .logo_planete {
   margin-left: 35px;
   margin-top: 30px;
+  width: 35px;
 }
+
+.ecran-1 {
+width: 100%;
+}
+
+img {
+  display: flex;
+  width: 100%;
+} 
+
+.boutton_accueil {
+  width: 15%;
+}
+
+.instagram {
+  width: 10%;
+  text-align: center;
+}
+
+.twitter {
+  width: 10%;
+}
+
+.youtube {
+  width: 10%;
+}
+
