@@ -1,16 +1,27 @@
 @import url('https://fonts.google.com/specimen/Mulish?vfonly=true');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 html {
     font-size: 62,5%;
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 1.4rem;
     line-height: 1.6;
-    margin: 0 20px;
+    margin: 0 0px;
 }
 
-a {
+.Wikipiece {
     text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Viga', sans-serif;
+    display: flex;
+    justify-content: center;
+        
+}
+
+h1 {
+   font-size: 2rem; 
 }

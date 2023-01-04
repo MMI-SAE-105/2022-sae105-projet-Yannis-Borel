@@ -44,7 +44,7 @@
   }
   
   .menu {
-      background-color: rgb(255, 132, 0);
+      background: linear-gradient(to left, orange, rgb(255, 128, 0));
       position: fixed;
       top: 0; 
       left: 0;
