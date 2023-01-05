@@ -2,5 +2,6 @@ header {
     text-decoration: none;
     margin: 0 0px;
     background: linear-gradient(to left, rgb(255, 208, 0), rgb(255, 128, 0));    
+    padding-top: 20px;
 }
 

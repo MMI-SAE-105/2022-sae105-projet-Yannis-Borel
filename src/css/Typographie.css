@@ -26,6 +26,10 @@ h1 {
    font-size: 2rem; 
 }
 
-.avis_site {
-    margin: 30px;
+.avis {
+    font-size: 25px;
+}
+
+.Formulaire_footer {
+    font-size: 20px; 
 }

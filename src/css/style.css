@@ -1,3 +1,5 @@
+@import url(./vendors/normalize.css);
+
 body {
   background-color: black;
 }
@@ -12,12 +14,13 @@ h3,
 legend,
 li,
 label,
-button {
+button, 
+figcaption {
   color: #fff;
 }
 
 .img_accueil { 
-  width:105% ;
+  width:100% ;
   margin-top: 60px;
 }
 
@@ -27,7 +30,7 @@ h1 {
 
 .logo_planete {
   margin-left: 35px;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 35px;
 }
 
@@ -38,10 +41,12 @@ width: 100%;
 img {
   display: flex;
   width: 100%;
-} 
+}
 
 .boutton_accueil {
   width: 15%;
+  display: block;
+  margin: 0 auto;
 }
 
 .instagram {
@@ -57,3 +62,19 @@ img {
   width: 10%;
 }
 
+.description {
+  margin-top: 20px;
+}
+
+.hracc {
+  height: 2px;
+  background-color: white;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 150PX;
+}
+
+.image_caroussel {
+  margin-top: 215px
+}
