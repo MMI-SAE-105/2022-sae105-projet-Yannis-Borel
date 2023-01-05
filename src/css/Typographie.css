@@ -29,8 +29,10 @@ h1 {
 
 .Formulaire_footer {
     font-size: 20px; 
-    text-decoration: underline;
     font-weight: 600;
+    text-decoration: underline;
+    position: relative;
+    bottom: 40px;
 }
 
 figcaption {
@@ -43,14 +45,20 @@ h4 {
     font-size: 30px;
     font-weight: 700;
     color: white;
+    position: relative;
+    bottom: 20px;
 }
 
 .legale {
     font-size: 20px; 
     font-weight: 600;
+    position: relative;
+    bottom: 40px;
 }
 
 .mail {
     font-size: 20px; 
     font-weight: 700;
+    position: relative;
+    bottom: 40px;
 }

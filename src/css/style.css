@@ -53,8 +53,10 @@ img {
   width: 10%;
     display: inline-block;
     position: relative;
-    right: 20%;
+    right: 15%;
     margin-top: 0px;
+    position: relative;
+    bottom: 40px;
 }
 
 .twitter {
@@ -63,14 +65,18 @@ img {
     position: relative;
     right: 0%;
     margin: auto;
+    position: relative;
+    bottom: 40px;
 }
 
 .youtube {
   width: 10%;
   display: inline-block;
     position: relative;
-    left: 20%;
+    left: 15%;
     margin: auto;
+    position: relative;
+    bottom: 40px;
 }
 
 .description {
