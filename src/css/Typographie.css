@@ -33,3 +33,7 @@ h1 {
 .Formulaire_footer {
     font-size: 20px; 
 }
+
+figcaption {
+    text-align: center;
+}
