@@ -51,15 +51,26 @@ img {
 
 .instagram {
   width: 10%;
-  text-align: center;
+    display: inline-block;
+    position: relative;
+    right: 20%;
+    margin-top: 0px;
 }
 
 .twitter {
   width: 10%;
+  display: inline-block;
+    position: relative;
+    right: 0%;
+    margin: auto;
 }
 
 .youtube {
   width: 10%;
+  display: inline-block;
+    position: relative;
+    left: 20%;
+    margin: auto;
 }
 
 .description {
@@ -77,4 +88,12 @@ img {
 
 .image_caroussel {
   margin-top: 215px
+}
+
+.hracc_2 {
+  height: 1px;
+  background-color: white;
+  width: 410px;
+  margin: 0px;
+  margin-bottom:30px;
 }
