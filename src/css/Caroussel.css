@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     margin: 0%; 
+    animation: 10s infinite;
 }
 
 .carrousel_ecran {
@@ -16,4 +17,8 @@
 
 .carrousel_ecran figure {
     margin: 0%; 
+}
+
+@keyframes s {
+    
 }

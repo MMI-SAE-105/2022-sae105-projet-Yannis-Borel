@@ -103,3 +103,16 @@ img {
   margin: 0px;
   margin-bottom:30px;
 }
+
+.hracc_3 {
+  height: 2px;
+  background-color: white;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom:68px;
+}
+
+img {
+  width: 90%;
+  margin: auto;
+}
