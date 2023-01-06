@@ -5,15 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+        <link rel="stylesheet" href="../src/css/style.css">
+        <link rel="stylesheet" href="../src/css/menu.css">
+        <link rel="stylesheet" href="../src/css/Typographie.css">
+        <link rel="stylesheet" href="../src/css/header.css">
+        <link rel="stylesheet" href="../src/css/footer.css">
+        <link rel="stylesheet" href="../src/css/Caroussel.css">
   </head>
-  <body>
+  <body class="">
     <header class="header">
-      <img src="../public/img/Component 2.webp" alt="button menu" />
-      <a href="./index.html"> WIKIPIECE </a>
-      <img
-        src="../public/img/La_planete_dans_laquelle_on_vit.svg"
-        alt="Langue"
-      />
+     <a href="../EN/index_anglais.html">
+      <img class="logo_planete"
+      src="../public/img/La_planete_dans_laquelle_on_vit.svg" 
+      alt="Langue"
+    /></a>
+    <a class="Wikipiece" href="./index.html">
+      WIKIPIECE</a>
+      <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+      <div class="nav-toggle-bar"></div>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="./FR/Filmographie.html">Filmographie</a></li>
+          <li><a href="./FR/Autres_projets.html">Autres projets</a></li>
+          <li><a href="./FR/Glossaire.html">Glossaire</a></li>
+          <li><a href="./FR/Contact.html">Contact/A propos</a></li>
+        </ul>
+      </nav>
     </header>
     <h1>A propos de moi</h1>
     <p>

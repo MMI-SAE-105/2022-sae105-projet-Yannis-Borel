@@ -4,17 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../src/css/style.css">
     <title>Document</title>
+        <link rel="stylesheet" href="../src/css/style.css">
+        <link rel="stylesheet" href="../src/css/menu.css">
+        <link rel="stylesheet" href="../src/css/Typographie.css">
+        <link rel="stylesheet" href="../src/css/header.css">
+        <link rel="stylesheet" href="../src/css/footer.css">
+        <link rel="stylesheet" href="../src/css/Caroussel.css">
   </head>
-  <body>
+  <body class="">
     <header class="header">
-      <img src="../public/img/Component 2.webp" alt="button menu" />
-      <a href="./index.html"> WIKIPIECE </a>
-      <img
-        src="../public/img/La_planete_dans_laquelle_on_vit.svg"
-        alt="Langue"
-      />
+     <a href="../EN/index_anglais.html">
+      <img class="logo_planete"
+      src="../public/img/La_planete_dans_laquelle_on_vit.svg" 
+      alt="Langue"
+    /></a>
+    <a class="Wikipiece" href="./index.html">
+      WIKIPIECE</a>
+      <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+      <div class="nav-toggle-bar"></div>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="./FR/Filmographie.html">Filmographie</a></li>
+          <li><a href="./FR/Autres_projets.html">Autres projets</a></li>
+          <li><a href="./FR/Glossaire.html">Glossaire</a></li>
+          <li><a href="./FR/Contact.html">Contact/A propos</a></li>
+        </ul>
+      </nav>
     </header>
     <img src="../public/img/image 1.webp" aly="Image accueil" />
     <h1>WIKIPIECE</h1>
@@ -118,24 +136,27 @@
     <img src="../public/img/Component 5.webp" aly="En savoir plus" />
     <footer>
       <h1>WIKIPIECE</h1>
-      <p>Contact form</p>
-      <p>Legal notice</p>
-      <p>
-        Project carried out as part of an educational exercise at the departmentq
-        <br> <a href="http://mmimontbeliard.com/"> MMI de Montbéliard </a></p>
-      </p>
-      <p>Contact me</p>
-      <p>Yannis Borel</p>
-      <p>Mail: yannis.borel84@gmail.com</p>
-      <p>Social network</p>
+      <hr class="hracc_2">
+      <h4>Donnez votre avis sur le site !</h4>
+      <a href="FR/Contact.html">
+      <p class="Formulaire_footer">Formulaire de contact</p>
+      </a>
+      <h4>Mentions légales</h4>
+      <p class="legale"><a href="http://mmimontbeliard.com/" style="color: white;">
+        Projet réalisé dans le cadre d'un exercice pédagogique au département
+         MMI de Montbéliard </a></p>
+      <h4>Me contacter</h4>
+      <p class="mail">Yannis BOREL A1
+      yannis.borel84@gmail.com</p>
+      <h4>Réseaux sociaux</h4>
       <a href="https://www.instagram.com/yannis.borel/?hl=fr"
-        ><img src="../public/img/instagram_svg.svg" alt="LOGO INSTAGRAM"
+        ><img src="../public/img/instagram_svg.svg" alt="LOGO INSTAGRAM" class="instagram"
       /></a>
       <a href="https://mobile.twitter.com/mirnis__"
-        ><img src="../public/img/twitter_svg.svg" alt="LOGO TWITTER"
+        ><img src="../public/img/twitter_svg.svg" alt="LOGO TWITTER" class="twitter"
       /></a>
       <a href="https://www.youtube.com/@mirnis4448"
-        ><img src="../public/img/youtube_svg.svg" alt="LOGO YOUTUBE"
+        ><img src="../public/img/youtube.webp" alt="LOGO YOUTUBE" class="youtube"
       /></a>
     </footer>
   </body>
