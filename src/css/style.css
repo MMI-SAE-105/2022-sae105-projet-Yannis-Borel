@@ -137,3 +137,25 @@ img {
 .Img-grande {
   width: 65%;
 }
+
+.boutton_filmographie {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 65%;
+}
+
+input {
+  margin-bottom: 0.3125rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
+    width: 80%;
+    padding: 0.375rem;
+}
+
+.contact {
+  padding: 20px;
+}
