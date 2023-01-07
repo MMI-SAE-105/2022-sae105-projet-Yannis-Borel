@@ -81,6 +81,7 @@
   .menu a {
   color: white; 
   text-decoration: none;
+  font-size: 30px;
 }
 
   
@@ -111,3 +112,5 @@
   .menu-open .menu li:nth-child(n+3) { transition-delay: .4s; }
   .menu-open .menu li:nth-child(n+4) { transition-delay: .45s; }
   .menu-open .menu li:nth-child(n+5) { transition-delay: .5s; }
+
+ 
