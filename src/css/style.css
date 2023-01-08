@@ -173,3 +173,9 @@ button {
 .contact {
   padding: 20px;
 }
+
+.fleche {
+  margin-right: 35px;
+  margin-top: 10px;
+  width: 45px;
+}
