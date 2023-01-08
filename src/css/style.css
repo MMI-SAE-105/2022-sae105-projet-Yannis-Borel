@@ -179,3 +179,7 @@ button {
   margin-top: 10px;
   width: 45px;
 }
+
+.video {
+  width: 100%;
+}
